@@ -1,0 +1,9 @@
+pandas
+numpy
+flask
+fastapi
+uvicorn
+requests
+streamlit
+plotly
+python-multipart

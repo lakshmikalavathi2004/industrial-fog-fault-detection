@@ -1,0 +1,27 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit and local environment settings
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# Generated telemetry and runtime output
+data/backend_readings.csv
+data/fog_processed_readings.csv
+
+# Test, coverage, and editor files
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
