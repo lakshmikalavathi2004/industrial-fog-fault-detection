@@ -719,30 +719,4 @@ LabRole
 
 ---
 
-### Streamlit warning about `use_container_width`
-
-If Streamlit shows a warning about `use_container_width`, it is only a warning and does not stop the dashboard. The dashboard still works.
-
----
-
-## Project Status
-
-Completed components:
-
-| Component | Status |
-|---|---|
-| Sensor simulator | Completed |
-| Fog node | Completed |
-| Local FastAPI backend | Completed |
-| Streamlit dashboard | Completed |
-| AWS DynamoDB table | Completed |
-| AWS Lambda backend | Completed |
-| AWS API Gateway endpoint | Completed |
-| Fog-to-AWS forwarding | Completed |
-| Dashboard connected to AWS | Completed |
-
----
-
-## Final Notes
-
 This project demonstrates a working fog-to-cloud IoT architecture for industrial machine fault detection. The fog node performs local processing and quick classification, while AWS provides a scalable backend using serverless and managed cloud services. The Streamlit dashboard provides a clear interface for monitoring machine health, sensor trends and fault alerts.
